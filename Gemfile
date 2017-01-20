@@ -36,6 +36,7 @@ group :test do
   gem "factory_girl_rails"
   gem 'ffaker'
 end
+gem 'devise', '~>4.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
